@@ -1,4 +1,4 @@
-require 'ruby_intro.rb'
+require '/home/ubuntu/workspace/hw-ruby-intro/lib/ruby_intro.rb'
 
 describe "BookInStock" do
   it "should be defined" do
