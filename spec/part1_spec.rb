@@ -1,4 +1,4 @@
-require 'ruby_intro.rb'
+require '/home/ubuntu/workspace/hw-ruby-intro/lib/ruby_intro.rb'
 
 describe 'Ruby intro part 1' do
 
