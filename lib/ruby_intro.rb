@@ -77,7 +77,8 @@ def starts_with_consonant? s
     end
 end
 
-def binary_multiple_of_4? s=0
+def binary_multiple_of_4? s="0"
+  return true if s=="0"
   num_decimal = s.to_i(2)
   if num_decimal != 0 and num_decimal%4 == 0
     return true
