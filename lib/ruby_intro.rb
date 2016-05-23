@@ -17,11 +17,17 @@ end
 # Part 2
 
 def hello(name)
-  # YOUR CODE HERE
+  return "Hello, #{name}"
 end
-
+#http://ruby-doc.org/core-1.9.3/Regexp.html
+#http://stackoverflow.com/questions/2339695/how-to-convert-a-string-or-integer-to-binary-in-ruby
 def starts_with_consonant? s
-  # YOUR CODE HERE
+    s_lower=s.downcase
+    if /^[a-z&&[^aeiou]]/.match(s_lower)    
+      return true
+    else        
+      return false
+    end
 end
 
 def binary_multiple_of_4? s
